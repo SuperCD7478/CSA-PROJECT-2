@@ -1,0 +1,35 @@
+week1 <- read.csv("/Users/Cooper/Downloads/week1.csv") 
+
+week1 <- week1 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+
+write.csv(week1, "newweek1.csv")
+
+week2 <- read.csv("/Users/Cooper/Downloads/week2.csv") 
+week2 <- week2 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week2, "newweek2.csv")
+
+week3 <- read.csv("/Users/Cooper/Downloads/week3.csv") 
+week3 <- week3 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week3, "newweek3.csv")
+
+week4 <- read.csv("/Users/Cooper/Downloads/week4.csv") 
+week4 <- week4 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week4, "newweek4.csv")
+
+week5 <- read.csv("/Users/Cooper/Downloads/week5.csv") 
+week5 <- week5 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week5, "newweek5.csv")
+
+week6 <- read.csv("/Users/Cooper/Downloads/week6.csv") 
+week6 <- week6 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week6, "newweek6.csv")
+
+week7 <- read.csv("/Users/Cooper/Downloads/week7.csv") 
+week7 <- week7 |> filter(event == c("pass_forward", "pass_arrived", "pass_outcome_caught"))
+write.csv(week7, "newweek7.csv")
+
+
+games <- read.csv("/Users/Cooper/Downloads/games.csv") 
+
+players <- read.csv("/Users/Cooper/Downloads/players.csv") 
+
